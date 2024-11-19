@@ -3,15 +3,15 @@
 int findGCDTwoNums(int n, int k) {
 
     	  if (n < k) {
-          		int temp = n;
-          		n = k;
-          		k = temp;
+          	int temp = n;
+          	n = k;
+          	k = temp;
     	  }
     
     	  while (k != 0) {
-          		int mod = n % k;
-          		n = k;
-          		k = mod;
+          	int mod = n % k;
+          	n = k;
+          	k = mod;
     	  }
     	  return n;
 }
