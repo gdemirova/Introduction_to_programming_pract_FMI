@@ -21,8 +21,8 @@ int maxSum(int n) {
           		int currentSumDigits = sumDigits(userInput);
           
           		if (currentSumDigits > maxSumDigits) {
-              			maxSumDigits = currentSumDigits;
-              			maxNumber = userInput;
+              		maxSumDigits = currentSumDigits;
+              		maxNumber = userInput;
           		}
       	}
       	return maxNumber;
